@@ -1,0 +1,4308 @@
+{
+  "meta": {
+    "platform": "PASSCOGH-MODOO",
+    "version": "5.0",
+    "authority_note": "Official NaCCA curriculum documents are authoritative. This application provides a structured learning layer and must not claim that generated topic lists replace official documents.",
+    "nacca_curriculum": "https://nacca.gov.gh/secondary-education-curriculum/",
+    "nacca_ccp": "https://nacca.gov.gh/common-core-programme-ccp/",
+    "nacca_combinations": "https://nacca.gov.gh/subject-combination-guidelines-secondary-education/"
+  },
+  "pre_shs": {
+    "name": "Pre-SHS / SHS Readiness",
+    "audience": "JHS graduates and potential SHS students",
+    "modules": [
+      "BECE readiness and diagnostic test",
+      "SHS pathway discovery",
+      "Subject-selection guidance",
+      "Literacy and numeracy bridge",
+      "Science foundation bridge",
+      "Study skills and time management",
+      "Digital literacy",
+      "Career exploration",
+      "SHS 1 preparation"
+    ]
+  },
+  "jhs": {
+    "years": [
+      "JHS 1",
+      "JHS 2",
+      "JHS 3"
+    ],
+    "subjects": [
+      "English Language",
+      "Mathematics",
+      "Science",
+      "Social Studies",
+      "French",
+      "Arabic",
+      "Ghanaian Language",
+      "Physical Education and Health",
+      "Religious and Moral Education",
+      "Creative Arts and Design",
+      "Career Technology",
+      "Computing"
+    ]
+  },
+  "shs": {
+    "years": [
+      "SHS 1",
+      "SHS 2",
+      "SHS 3"
+    ],
+    "pathways": [
+      {
+        "id": "stem",
+        "name": "STEM & Science",
+        "subjects": [
+          "Mathematics",
+          "Additional Mathematics",
+          "Physics",
+          "Chemistry",
+          "Biology",
+          "Computing",
+          "Robotics",
+          "General Science"
+        ]
+      },
+      {
+        "id": "business",
+        "name": "Business & Economics",
+        "subjects": [
+          "Mathematics",
+          "Economics",
+          "Accounting",
+          "Business Management",
+          "Computing",
+          "English Language"
+        ]
+      },
+      {
+        "id": "humanities",
+        "name": "Humanities & Social Sciences",
+        "subjects": [
+          "English Language",
+          "Literature in English",
+          "Government",
+          "History",
+          "Geography",
+          "Economics",
+          "Social Studies"
+        ]
+      },
+      {
+        "id": "languages",
+        "name": "Languages & Communication",
+        "subjects": [
+          "English Language",
+          "French",
+          "Arabic",
+          "Ghanaian Language",
+          "Literature in English",
+          "Spanish"
+        ]
+      },
+      {
+        "id": "creative",
+        "name": "Creative Arts & Design",
+        "subjects": [
+          "Art and Design Foundation",
+          "Art and Design Studio",
+          "Performing Arts",
+          "Design Communication Technology"
+        ]
+      },
+      {
+        "id": "technical",
+        "name": "Technical, Engineering & Technology",
+        "subjects": [
+          "Engineering",
+          "Applied Technology",
+          "Manufacturing Engineering",
+          "Design Communication Technology",
+          "Computing",
+          "Robotics"
+        ]
+      },
+      {
+        "id": "agriculture",
+        "name": "Agriculture & Environment",
+        "subjects": [
+          "Agricultural Science",
+          "Agriculture",
+          "Biology",
+          "Chemistry",
+          "Geography",
+          "Mathematics"
+        ]
+      },
+      {
+        "id": "health",
+        "name": "Health & Life Sciences",
+        "subjects": [
+          "Biology",
+          "Chemistry",
+          "Physics",
+          "Mathematics",
+          "General Science",
+          "Biomedical Science"
+        ]
+      }
+    ],
+    "subjects": [
+      "Additional Mathematics",
+      "Agricultural Science",
+      "Agriculture",
+      "Applied Technology",
+      "Arabic",
+      "Art and Design Foundation",
+      "Art and Design Studio",
+      "Aviation and Aerospace Engineering",
+      "Biology",
+      "Biomedical Science",
+      "Chemistry",
+      "Computing",
+      "Design Communication Technology",
+      "Economics",
+      "Engineering",
+      "English Language",
+      "French",
+      "General Science",
+      "Government",
+      "History",
+      "ICT",
+      "Literature in English",
+      "Manufacturing Engineering",
+      "Mathematics",
+      "Performing Arts",
+      "Physical Education and Health",
+      "Physics",
+      "Religious and Moral Education",
+      "Robotics",
+      "Social Studies",
+      "Spanish",
+      "Geography"
+    ]
+  },
+  "pre_university": {
+    "name": "Pre-University / Pre-College",
+    "audience": "SHS 2–3 learners and prospective tertiary students",
+    "modules": [
+      "WASSCE readiness",
+      "Results and subject profile",
+      "Course eligibility and subject requirements",
+      "Course discovery",
+      "Institution comparison",
+      "Accreditation verification",
+      "Application checklist",
+      "Career-to-course mapping",
+      "Scholarship and funding preparation",
+      "Study and interview skills"
+    ]
+  },
+  "subjects": {
+    "Additional Mathematics": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Algebra",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Functions",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Coordinate Geometry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Trigonometry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Calculus",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Statistics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Agricultural Science": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Soil",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Crop Production",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Animal Production",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Farm Management",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Agricultural Economics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Conservation",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Agriculture": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Applied Technology": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Arabic": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Reading",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Writing",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Grammar",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Vocabulary",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Communication",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Culture",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Art and Design Foundation": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Art and Design Studio": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Aviation and Aerospace Engineering": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Biology": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Cells",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Biological Molecules",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Enzymes",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Nutrition",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Transport in Plants",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Transport in Humans",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Respiration",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Excretion",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Coordination",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Reproduction",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Genetics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Ecology",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "CELLS = Cell parts Explain Life & Living Systems"
+    },
+    "Biomedical Science": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Career Technology": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Materials",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Tools",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Design",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Production",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Safety",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Entrepreneurship",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Chemistry": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Matter and Particle Theory",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Atomic Structure",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Periodic Table",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Chemical Bonding",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Formulae and Equations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Mole Concept",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Acids Bases and Salts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Rates of Reaction",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Equilibrium",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Organic Chemistry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Electrochemistry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Chemistry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "SWAP = Symbols + Valency → Accurate Formula"
+    },
+    "Computing": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Digital Literacy",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Computer Systems",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Networks",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Data and Information",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Programming",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Databases",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Cyber Safety",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Computational Thinking",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "CIA = Confidentiality, Integrity, Availability"
+    },
+    "Creative Arts and Design": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Design Principles",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Drawing",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Craft",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Digital Design",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Art History",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Creative Projects",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Design Communication Technology": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Economics": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Basic Economic Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Demand and Supply",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Production",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Market Structures",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "National Income",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Money and Banking",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "DSS = Demand, Supply, Scarcity"
+    },
+    "Engineering": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "English Language": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Oral Language",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Reading",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Grammar",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Vocabulary",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Writing",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Literature and Critical Reading",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "READ = Read, Explain, Analyse, Decide"
+    },
+    "French": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Oral Communication",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Reading",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Grammar",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Vocabulary",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Writing",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Culture",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "General Science": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Matter",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Energy",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Living Systems",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Forces",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Environment",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Science",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Geography": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Map Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Physical Geography",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Population",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Settlement",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Resources",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Environmental Management",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "MAP = Measure, Analyse, Present"
+    },
+    "Ghanaian Language": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Government": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Constitution",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Governance",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Political Institutions",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Citizenship",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Public Administration",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "International Relations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "CIP = Constitution, Institutions, Participation"
+    },
+    "History": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Pre-colonial Ghana",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "European Contact",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Colonial Rule",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Nationalism",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Independence",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Post-Independence Ghana",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "ICT": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Literature in English": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Prose",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Drama",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Poetry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Literary Devices",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Themes",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Critical Appreciation",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Manufacturing Engineering": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Mathematics": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Number",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Algebra",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Indices and Logarithms",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Functions",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Coordinate Geometry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Mensuration",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Trigonometry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Statistics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Probability",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Vectors",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Calculus",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Geometry",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "BODMAS = Brackets, Orders, Division, Multiplication, Addition, Subtraction"
+    },
+    "Performing Arts": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Physical Education and Health": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Physics": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Measurement",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Kinematics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Dynamics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Energy and Power",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Heat",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Waves",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Electricity",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Magnetism",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Electronics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Atomic and Nuclear Physics",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "SUVAT = a quick memory guide for constant-acceleration problems"
+    },
+    "Religious and Moral Education": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Beliefs",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Moral Values",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Community",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Leadership",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Religious Practices",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Peace and Development",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Robotics": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Science": {
+      "learning_area": "STEM",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Social Studies": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Society",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Governance",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Environment",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Economic Development",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Culture and Identity",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Citizenship",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    },
+    "Spanish": {
+      "learning_area": "Language/Humanities/Technical",
+      "levels": [
+        "JHS 1",
+        "JHS 2",
+        "JHS 3",
+        "SHS 1",
+        "SHS 2",
+        "SHS 3"
+      ],
+      "topics": [
+        {
+          "title": "Foundations",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Core Concepts",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Applications",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Practical Work",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Problem Solving",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        },
+        {
+          "title": "Exam Practice",
+          "sections": [
+            "Learning objective",
+            "Concept in simple language",
+            "Funny/familiar memory trick",
+            "Clearly labelled diagram/visual",
+            "Worked example",
+            "Step-by-step method",
+            "Common mistakes",
+            "Practice questions",
+            "Exam-style question",
+            "Answer and explanation"
+          ]
+        }
+      ],
+      "default_mnemonic": "REMEMBER = Read, Explain, Make an example, Explain again, Master, Evaluate, Review"
+    }
+  }
+}
