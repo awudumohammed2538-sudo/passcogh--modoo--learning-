@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#087443">
+<meta name="description" content="PASSCOGH-MODOO — Learn, Prepare and Choose. A learner-focused educational platform for Ghanaian students.">
+<title>PASSCOGH-MODOO | Learn • Prepare • Choose</title>
+<style>
+:root{--green:#087443;--green-dark:#04542f;--gold:#f2c400;--navy:#101b33;--ink:#172033;--muted:#647084;--bg:#f5f8f7;--card:#fff;--line:#dfe7e3;--shadow:0 10px 30px rgba(15,35,28,.08);--radius:18px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}button,input,select{font:inherit}button{cursor:pointer}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,94%);margin:auto}
+header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.header-inner{min-height:72px;display:flex;align-items:center;gap:16px;justify-content:space-between}.brand{display:flex;align-items:center;min-width:0;gap:10px}.brand-logo{width:54px;height:54px;object-fit:contain;border-radius:12px}.brand-text{min-width:0}.brand-name{font-size:18px;font-weight:900;color:var(--green);letter-spacing:.4px;white-space:nowrap}.brand-sub{font-size:11px;color:var(--muted);white-space:nowrap}
+nav{display:flex;gap:5px;align-items:center;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}.nav-btn{border:0;background:transparent;color:var(--ink);font-weight:700;padding:10px 11px;border-radius:10px;white-space:nowrap}.nav-btn:hover{background:#eaf5ef;color:var(--green)}.menu-btn{display:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 12px;font-size:21px}
+.hero{margin-top:22px;border-radius:26px;overflow:hidden;background:linear-gradient(135deg,#064f32,#0b8052 55%,#12365e);color:#fff;box-shadow:var(--shadow)}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:25px;padding:42px}.hero h1{font-size:clamp(32px,5vw,58px);line-height:1.05;margin-bottom:16px;letter-spacing:-1.5px}.hero h1 span{color:#ffd900}.hero p{font-size:17px;max-width:720px;color:#eefcf5;margin-bottom:22px}.hero-buttons{display:flex;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:12px;padding:12px 17px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-1px)}.btn-primary{background:var(--gold);color:#151515}.btn-light{background:#fff;color:var(--green-dark)}.hero-logo{width:min(100%,390px);margin:auto;background:#fff;border-radius:20px;padding:18px}
+.section{padding:45px 0 10px}.section-title{font-size:28px;margin-bottom:8px;color:var(--navy)}.section-intro{color:var(--muted);margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}.card h3{margin-bottom:7px;color:var(--navy)}.card p{color:var(--muted)}.card-action{margin-top:15px;background:#eaf6ef;color:var(--green-dark);border:0;border-radius:10px;padding:10px 13px;font-weight:800}.card-action:hover{background:#d8efe1}
+.search-box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:20px;box-shadow:var(--shadow)}.search-box input,.search-box select{width:100%;border:1px solid #ccd8d3;border-radius:12px;padding:14px;outline:none;background:#fff}.search-box input:focus,.search-box select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(8,116,67,.1)}
+.learning-toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}.learning-toolbar select,.learning-toolbar input{flex:1;min-width:180px;padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff}.breadcrumb{display:flex;flex-wrap:wrap;gap:7px;align-items:center;color:var(--muted);font-size:14px;margin-bottom:15px}.topic-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:12px}.topic-card h3{color:var(--green-dark);margin-bottom:6px}.topic-card button{margin-top:10px;border:0;background:var(--green);color:#fff;padding:9px 13px;border-radius:9px;font-weight:700}.lesson{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}.lesson h2{color:var(--navy);margin-bottom:14px}.lesson h3{margin-top:20px;margin-bottom:8px;color:var(--green-dark)}.lesson p{margin-bottom:10px}.step{padding:15px;background:#f6faf8;border-left:4px solid var(--green);border-radius:9px;margin:10px 0}.step strong{display:block;color:var(--green-dark);margin-bottom:4px}.memory-box{background:#fffbea;border:1px solid #f0d57a;border-radius:14px;padding:16px;margin-top:15px}.diagram-box{background:#f6f8fb;border:1px dashed #b7c4d0;border-radius:14px;padding:20px;margin-top:15px;text-align:center}
+.creator{display:grid;grid-template-columns:320px 1fr;gap:30px;align-items:center}.creator-photo-wrap{background:#fff;border-radius:22px;padding:10px;border:1px solid var(--line);box-shadow:var(--shadow)}.creator-photo{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;border-radius:16px}.creator h2{font-size:32px;color:var(--navy);margin-bottom:8px}.creator-role{color:var(--green);font-weight:800;margin-bottom:15px}.creator p{color:var(--muted);margin-bottom:12px}.quote{border-left:5px solid var(--gold);background:#fff;padding:16px 18px;border-radius:10px;margin-top:18px;color:var(--navy);font-weight:700}
+.material-card{display:flex;flex-direction:column;gap:10px}.material-icon{width:48px;height:48px;display:grid;place-items:center;background:#eaf6ef;border-radius:13px;font-size:24px}.notice{border:1px solid #f0d57a;background:#fffbea;border-radius:16px;padding:17px;margin-top:20px;color:#665000}.notice strong{color:#4c3a00}.status{padding:13px 15px;border-radius:11px;background:#edf8f1;color:var(--green-dark);margin-bottom:15px;font-weight:700}.status.error{background:#fff0f0;color:#9d1c2b}.loading{padding:45px 20px;text-align:center;color:var(--muted)}.empty{padding:25px;text-align:center;background:#fff;border:1px dashed #bccac4;border-radius:15px;color:var(--muted)}.result-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:15px;margin-bottom:10px}.result-card h3{color:var(--green-dark);margin-bottom:4px}.tag{display:inline-block;padding:4px 8px;border-radius:20px;background:#eaf6ef;color:var(--green-dark);font-size:12px;font-weight:800;margin-bottom:7px}.back-btn{border:0;background:#eaf6ef;color:var(--green-dark);padding:9px 13px;border-radius:10px;font-weight:800}.institution-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}.institution-card h3{color:var(--navy);margin-bottom:7px}.institution-card p{color:var(--muted);margin-bottom:7px}
+footer{margin-top:55px;background:#0c1724;color:#dbe5e2;padding:35px 0}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px}footer h3{color:#fff;margin-bottom:10px}footer p,footer li{color:#aebdb8;font-size:14px}footer ul{list-style:none}footer li{margin:5px 0}.copyright{border-top:1px solid #263746;margin-top:25px;padding-top:18px;font-size:13px;color:#91a29d}
+@media(max-width:850px){.header-inner{flex-wrap:wrap;padding:9px 0}.menu-btn{display:block}nav{display:none;width:100%;padding-bottom:6px;flex-wrap:wrap}nav.open{display:flex}.hero-grid{grid-template-columns:1fr;padding:28px 20px}.hero-logo{max-width:320px}.grid{grid-template-columns:1fr 1fr}.creator{grid-template-columns:1fr}.creator-photo-wrap{max-width:350px;margin:auto}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.brand-name{font-size:15px}.brand-sub{font-size:9px}.brand-logo{width:45px;height:45px}.hero{border-radius:18px}.hero h1{font-size:34px}.grid{grid-template-columns:1fr}.section{padding-top:32px}.creator h2{font-size:27px}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap header-inner">
+<a href="#" class="brand" onclick="go('home');return false;">
+<img class="brand-logo" src="passco_gh_logo_horizontal.webp" alt="PASSCO GH MODOO logo">
+<div class="brand-text"><div class="brand-name">PASSCOGH-MODOO</div><div class="brand-sub">Learn • Prepare • Choose</div></div>
+</a>
+<button class="menu-btn" aria-label="Open navigation" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<button class="nav-btn" onclick="go('home')">Home</button>
+<button class="nav-btn" onclick="go('pre-shs')">Pre-SHS</button>
+<button class="nav-btn" onclick="go('jhs')">JHS</button>
+<button class="nav-btn" onclick="go('shs')">SHS</button>
+<button class="nav-btn" onclick="go('pre-uni')">Pre-University</button>
+<button class="nav-btn" onclick="go('tertiary')">University & Colleges</button>
+<button class="nav-btn" onclick="go('materials')">Materials</button>
+<button class="nav-btn" onclick="go('creator')">Creator</button>
+</nav>
+</div>
+</header>
+<main class="wrap"><div id="app"><div class="loading">Loading PASSCOGH-MODOO…</div></div></main>
+<footer>
+<div class="wrap footer-grid">
+<div><h3>PASSCOGH-MODOO</h3><p>A learner-focused educational platform designed to help Ghanaian learners learn better, prepare effectively and make informed educational choices.</p></div>
+<div><h3>Learn</h3><ul><li>Pre-SHS</li><li>JHS 1–3</li><li>SHS 1–3</li><li>Pre-University</li></ul></div>
+<div><h3>Explore</h3><ul><li>Learning materials</li><li>Subjects & topics</li><li>Study guidance</li><li>Creator information</li></ul></div>
+</div>
+<div class="wrap copyright">© <span id="year"></span> PASSCOGH-MODOO. Created for Ghanaian learners.</div>
+</footer>
+<script>
+let DATA={},INSTITUTIONS={};
+let state={level:"home",subject:null,topic:null,query:""};
+const app=document.getElementById("app");
+document.getElementById("year").textContent=new Date().getFullYear();
+
+function toggleMenu(){document.getElementById("nav").classList.toggle("open")}
+function escapeHTML(value){return String(value??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+function firstDefined(obj,keys,fallback=""){if(!obj)return fallback;for(const key of keys){if(obj[key]!==undefined&&obj[key]!==null&&obj[key]!=="")return obj[key]}return fallback}
+function normalizeArray(value){
+if(Array.isArray(value))return value;
+if(value&&typeof value==="object")return Object.entries(value).map(([key,val])=>typeof val==="object"&&val!==null?{id:key,...val}:{id:key,name:key,description:String(val)});
+return [];
+}
+function textOf(value){if(value===undefined||value===null)return "";if(typeof value==="string")return value;if(typeof value==="number"||typeof value==="boolean")return String(value);return JSON.stringify(value)}
+function getName(item,fallback="Untitled"){return firstDefined(item,["name","title","subject","label","topicName"],fallback)}
+function getDescription(item,fallback=""){return firstDefined(item,["description","intro","summary","details","about"],fallback)}
+function getSubjects(level){
+if(!DATA)return [];
+if(Array.isArray(DATA.subjects))return DATA.subjects.filter(item=>{if(!item||typeof item!=="object")return false;const itemLevel=firstDefined(item,["level","stage","schoolLevel"],"");if(!itemLevel)return true;return String(itemLevel).toLowerCase().includes(level.toLowerCase())});
+if(DATA[level]){if(Array.isArray(DATA[level]))return DATA[level];if(DATA[level].subjects)return normalizeArray(DATA[level].subjects)}
+return [];
+}
+function getTopics(subject){return normalizeArray(firstDefined(subject,["topics","lessons","units","chapters"],[]))}
+function getTopicLessons(topic){return normalizeArray(firstDefined(topic,["lessons","content","sections","steps"],[]))}
+
+async function load(){
+try{const r=await fetch("/api/curriculum");if(r.ok)DATA=await r.json();else DATA={}}catch(e){console.warn("Curriculum API unavailable:",e);DATA={}}
+try{const r=await fetch("/api/institutions");if(r.ok)INSTITUTIONS=await r.json();else INSTITUTIONS={}}catch(e){console.warn("Institutions API unavailable:",e);INSTITUTIONS={}}
+render();
+}
+
+function go(level){
+state={level,subject:null,topic:null,query:""};
+document.getElementById("nav").classList.remove("open");
+render();
+window.scrollTo({top:0,behavior:"smooth"});
+}
+function openSubject(subject){state.subject=subject;state.topic=null;render();window.scrollTo({top:0,behavior:"smooth"})}
+function openTopic(topic){state.topic=topic;render();window.scrollTo({top:0,behavior:"smooth"})}
+function backToLevel(){state.subject=null;state.topic=null;render()}
+function backToSubject(){state.topic=null;render()}
+
+function home(){
+const cards=[
+["🟦","Pre-SHS","Build the foundation and readiness needed before entering Senior High School.","pre-shs"],
+["📚","JHS 1–3","Study the JHS curriculum with structured subjects, topics and learning support.","jhs"],
+["🎓","SHS 1–3","Explore SHS subjects, lessons, study methods and examination preparation.","shs"],
+["🚀","Pre-University","Prepare for the transition from SHS into tertiary education and career pathways.","pre-uni"],
+["🏫","University & Colleges","Explore tertiary guidance and institution information.","tertiary"],
+["🧠","Learning Materials","Access learning resources and study support through PASSCOGH-MODOO.","materials"]
+];
+app.innerHTML=`<section class="hero"><div class="hero-grid"><div>
+<div style="display:inline-block;background:rgba(255,255,255,.12);padding:7px 11px;border-radius:20px;margin-bottom:14px;font-weight:800">🇬🇭 Built for Ghanaian learners</div>
+<h1>Learn.<br><span>Prepare.</span><br>Choose.</h1>
+<p>Welcome to PASSCOGH-MODOO — a learner-focused educational platform created to help students understand difficult concepts, prepare for examinations and make better educational choices.</p>
+<div class="hero-buttons"><button class="btn btn-primary" onclick="go('shs')">Start Learning</button><button class="btn btn-light" onclick="go('creator')">Meet the Creator</button></div>
+</div><div><img class="hero-logo" src="passco_gh_logo_horizontal.webp" alt="PASSCOGH-MODOO"></div></div></section>
+<section class="section"><h2 class="section-title">What do you want to do?</h2><p class="section-intro">Choose a learning stage or educational pathway.</p><div class="grid">${cards.map(c=>`<article class="card"><div style="font-size:32px;margin-bottom:8px">${c[0]}</div><h3>${escapeHTML(c[1])}</h3><p>${escapeHTML(c[2])}</p><button class="card-action" onclick="go('${c[3]}')">Explore →</button></article>`).join("")}</div></section>
+<section class="section"><div class="search-box"><h2 class="section-title">🔎 Find something quickly</h2><p class="section-intro">Search available curriculum and learning information.</p><input id="globalSearch" placeholder="Search subjects, topics, institutions…" oninput="globalSearch(this.value)"></div><div id="searchResults"></div></section>
+<section class="section"><div class="notice"><strong>📌 Important:</strong> PASSCOGH-MODOO provides learning and educational guidance. Official curriculum documents, examination information, accreditation and institutional requirements should always be verified with the relevant official source before important decisions.</div></section>`;
+}
+
+function levelView(level){
+const labels={"pre-shs":"Pre-SHS","jhs":"JHS 1–3","shs":"SHS 1–3","pre-uni":"Pre-University"};
+const title=labels[level]||level;
+if(state.topic)return lessonView(state.topic,title,state.subject);
+if(state.subject)return subjectView(level,title);
+const subjects=normalizeArray(getSubjects(level));
+if(!subjects.length)return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="go('home')">← Home</button><span>/ ${escapeHTML(title)}</span></div><h1 class="section-title">${escapeHTML(title)}</h1><p class="section-intro">Select a subject to begin learning.</p><div class="empty">Curriculum data is not currently available for this section. When the backend provides curriculum data, it will appear here automatically.</div></section>`;
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="go('home')">← Home</button><span>/ ${escapeHTML(title)}</span></div><h1 class="section-title">${escapeHTML(title)}</h1><p class="section-intro">Choose a subject to continue.</p><div class="search-box"><input id="subjectFilter" placeholder="Filter subjects…" oninput="filterSubjects(this.value)"></div><div id="subjectGrid" class="grid">${subjects.map((s,i)=>`<article class="card subject-item" data-search="${escapeHTML(String(getName(s)+" "+getDescription(s))).toLowerCase()}"><h3>${escapeHTML(getName(s,`Subject ${i+1}`))}</h3><p>${escapeHTML(getDescription(s,"Explore lessons, topics and learning support."))}</p><button class="card-action" onclick="openSubjectByIndex('${escapeHTML(level)}',${i})">Open Subject →</button></article>`).join("")}</div></section>`;
+}
+function openSubjectByIndex(level,index){const subjects=normalizeArray(getSubjects(level));if(subjects[index])openSubject(subjects[index])}
+function subjectView(level,title){
+const subject=state.subject,subjectName=getName(subject,"Subject"),description=getDescription(subject,"Explore topics and lessons for this subject."),topics=getTopics(subject);
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="backToLevel()">← ${escapeHTML(title)}</button><span>/ ${escapeHTML(subjectName)}</span></div><h1 class="section-title">${escapeHTML(subjectName)}</h1><p class="section-intro">${escapeHTML(description)}</p><div class="notice"><strong>🧠 Study smart:</strong> Don't just memorise. Understand the idea, practise it, then test yourself.</div><section class="section"><h2 class="section-title">Topics & Lessons</h2>${topics.length?topics.map((topic,i)=>`<article class="topic-card"><h3>${escapeHTML(getName(topic,`Topic ${i+1}`))}</h3><p>${escapeHTML(getDescription(topic,"Open this topic to study its lessons and explanations."))}</p><button onclick="openTopicByIndex(${i})">Study Topic →</button></article>`).join(""):`<div class="empty">No topics are currently available for this subject in the connected curriculum data.</div>`}</section></section>`;
+}
+function openTopicByIndex(index){const topics=getTopics(state.subject);if(topics[index])openTopic(topics[index])}
+function formatLessonText(value){const text=textOf(value);if(!text)return "";return escapeHTML(text).replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>")}
+function lessonView(topic,title,subject){
+const topicName=getName(topic,"Lesson"),description=getDescription(topic,"Study this lesson carefully and practise what you learn."),lessons=getTopicLessons(topic);
+let content="";
+if(lessons.length)content=lessons.map((item,i)=>`<div class="step"><strong>${escapeHTML(getName(item,`Step ${i+1}`))}</strong><div>${formatLessonText(getDescription(item,""))}</div></div>`).join("");
+else{const raw=firstDefined(topic,["content","text","body","explanation"],"");content=raw?`<div>${formatLessonText(raw)}</div>`:`<div class="empty">This topic has been added to the curriculum, but detailed lesson content has not yet been supplied by the backend.</div>`}
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="backToSubject()">← ${escapeHTML(getName(subject,"Subject"))}</button><span>/ ${escapeHTML(topicName)}</span></div><article class="lesson"><span class="tag">📚 ${escapeHTML(title)}</span><h2>${escapeHTML(topicName)}</h2><p>${escapeHTML(description)}</p><h3>📖 Lesson</h3>${content}<div class="memory-box"><strong>🧠 PASSCOGH-MODOO Memory Tip</strong><p>Understand the main idea first, create a short memory clue or acronym, then practise without looking at your notes.</p></div><div class="diagram-box"><strong>✏️ Practice Zone</strong><p>After studying this topic, close your notes and explain what you learned in your own words.</p></div></article></section>`;
+}
+function filterSubjects(value){
+const q=String(value||"").trim().toLowerCase();
+document.querySelectorAll(".subject-item").forEach(card=>{card.style.display=!q||(card.dataset.search||"").includes(q)?"":"none"});
+}
+
+function globalSearch(value){
+const q=String(value||"").trim().toLowerCase(),results=document.getElementById("searchResults");if(!results)return;if(!q){results.innerHTML="";return}
+const matches=[],levels=["pre-shs","jhs","shs","pre-uni"];
+levels.forEach(level=>normalizeArray(getSubjects(level)).forEach(subject=>{
+const sn=getName(subject,"Subject"),sd=getDescription(subject,""),st=`${sn} ${sd}`.toLowerCase();
+if(st.includes(q))matches.push({type:"Subject",name:sn,description:sd,action:()=>{state.level=level;openSubject(subject)}});
+getTopics(subject).forEach(topic=>{const tn=getName(topic,"Topic"),td=getDescription(topic,""),tt=`${tn} ${td}`.toLowerCase();if(tt.includes(q))matches.push({type:"Topic",name:tn,description:td,action:()=>{state.level=level;state.subject=subject;openTopic(topic)}})})
+}));
+normalizeArray(INSTITUTIONS).forEach(inst=>{const n=getName(inst,"Institution"),d=getDescription(inst,""),t=`${n} ${d}`.toLowerCase();if(t.includes(q))matches.push({type:"Institution",name:n,description:d,action:()=>go("tertiary")})});
+if(!matches.length){results.innerHTML=`<div class="empty">No results found for <strong>${escapeHTML(value)}</strong>.</div>`;return}
+window.__searchMatches=matches;
+results.innerHTML=`<div class="section-title" style="font-size:20px">Search results</div>${matches.slice(0,30).map((item,i)=>`<div class="result-card"><span class="tag">${escapeHTML(item.type)}</span><h3>${escapeHTML(item.name)}</h3><p>${escapeHTML(item.description||"Open to explore more.")}</p><button class="card-action" onclick="searchResultAction(${i})">Open →</button></div>`).join("")}`;
+}
+function searchResultAction(index){const m=window.__searchMatches||[];if(m[index]&&typeof m[index].action==="function")m[index].action()}
+
+function materialsView(){
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="go('home')">← Home</button><span>/ Learning Materials</span></div><h1 class="section-title">📚 Learning Materials</h1><p class="section-intro">Study resources and educational materials for Ghanaian learners.</p><div class="grid"><article class="card material-card"><div class="material-icon">📄</div><h3>Curriculum Resources</h3><p>Curriculum-connected learning resources can appear here when supplied by the platform backend.</p><button class="card-action" onclick="go('shs')">Browse Learning →</button></article><article class="card material-card"><div class="material-icon">📝</div><h3>Revision Support</h3><p>Use structured topics and lessons to revise important concepts.</p><button class="card-action" onclick="go('jhs')">Start Revision →</button></article><article class="card material-card"><div class="material-icon">🧠</div><h3>Study Skills</h3><p>Learn, practise, recall and explain concepts to strengthen your understanding.</p><button class="card-action" onclick="go('pre-uni')">Explore →</button></article></div><div class="notice"><strong>🔐 Materials note:</strong> Materials supplied by the backend can be displayed through the platform according to the access rules implemented by the backend.</div></section>`;
+}
+function tertiaryView(){
+const institutions=normalizeArray(INSTITUTIONS);
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="go('home')">← Home</button><span>/ University & Colleges</span></div><h1 class="section-title">🏫 University & Colleges</h1><p class="section-intro">Explore institution information supplied by the connected backend.</p>${institutions.length?`<div class="grid">${institutions.map((x,i)=>`<article class="institution-card"><h3>${escapeHTML(getName(x,`Institution ${i+1}`))}</h3><p>${escapeHTML(getDescription(x,"Institution information."))}</p>${firstDefined(x,["location","city","region"],"")?`<p><strong>Location:</strong> ${escapeHTML(firstDefined(x,["location","city","region"],""))}</p>`:""}</article>`).join("")}</div>`:`<div class="empty">Institution data is not currently available from the backend.</div>`}</section>`;
+}
+function creatorView(){
+return `<section class="section"><div class="breadcrumb"><button class="back-btn" onclick="go('home')">← Home</button><span>/ Creator</span></div><div class="creator"><div class="creator-photo-wrap"><img class="creator-photo" src="awudu_mohammed_modoo_ayariga.webp" alt="Awudu Mohammed Modoo Ayariga" onerror="this.style.display='none'"></div><div><h2>Awudu Mohammed Modoo Ayariga</h2><div class="creator-role">Creator & Developer of PASSCOGH-MODOO</div><p>PASSCOGH-MODOO is designed as a learner-focused educational platform for Ghanaian students.</p><p>The goal is simple: make learning easier to understand, preparation more effective and educational choices clearer.</p><div class="quote">“Learn • Prepare • Choose.”</div></div></div></section>`;
+}
+function render(){
+try{
+if(state.level==="home")home();
+else if(state.level==="materials")app.innerHTML=materialsView();
+else if(state.level==="tertiary")app.innerHTML=tertiaryView();
+else if(state.level==="creator")app.innerHTML=creatorView();
+else app.innerHTML=levelView(state.level);
+}catch(e){console.error(e);app.innerHTML=`<section class="section"><div class="status error">Something went wrong while displaying this page.</div><div class="empty">Please refresh the page. If the problem continues, check the backend data and browser console.</div></section>`}
+}
+render();
+load();
+</script>
+</body>
+</html>
