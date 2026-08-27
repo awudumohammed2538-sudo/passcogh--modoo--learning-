@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "note": "Institution and programme status changes. Verify current accreditation and programme approval with GTEC before application.",
+    "gtec": "https://gtec.edu.gh/accreditation/"
+  },
+  "institutions": [
+    {
+      "name": "University of Ghana",
+      "type": "University",
+      "location": "Legon, Accra",
+      "url": "https://www.ug.edu.gh/"
+    },
+    {
+      "name": "Kwame Nkrumah University of Science and Technology",
+      "type": "University",
+      "location": "Kumasi",
+      "url": "https://www.knust.edu.gh/"
+    },
+    {
+      "name": "University of Cape Coast",
+      "type": "University",
+      "location": "Cape Coast",
+      "url": "https://ucc.edu.gh/"
+    },
+    {
+      "name": "University for Development Studies",
+      "type": "University",
+      "location": "Northern Ghana",
+      "url": "https://www.uds.edu.gh/"
+    },
+    {
+      "name": "University of Education, Winneba",
+      "type": "University",
+      "location": "Winneba",
+      "url": "https://uew.edu.gh/"
+    },
+    {
+      "name": "University of Professional Studies, Accra",
+      "type": "University",
+      "location": "Accra",
+      "url": "https://upsa.edu.gh/"
+    }
+  ],
+  "course_rules": [
+    {
+      "keywords": [
+        "mathematics",
+        "physics",
+        "chemistry"
+      ],
+      "programmes": [
+        "Engineering",
+        "Physical Sciences",
+        "Computer-related programmes"
+      ]
+    },
+    {
+      "keywords": [
+        "biology",
+        "chemistry"
+      ],
+      "programmes": [
+        "Biological Sciences",
+        "Biochemistry",
+        "Health-related programmes"
+      ]
+    },
+    {
+      "keywords": [
+        "mathematics",
+        "economics"
+      ],
+      "programmes": [
+        "Economics",
+        "Finance",
+        "Accounting",
+        "Actuarial/Mathematical programmes"
+      ]
+    },
+    {
+      "keywords": [
+        "english",
+        "government",
+        "history"
+      ],
+      "programmes": [
+        "Law-related pathways",
+        "Political Science",
+        "Education",
+        "Humanities"
+      ]
+    }
+  ]
+}
