@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#087443">
+<meta name="description" content="PASSCOGH-MODOO — Learn, Prepare and Choose. Ghanaian curriculum learning, revision, courses, certificates and educational guidance.">
+<title>PASSCOGH-MODOO | Learn • Prepare • Choose</title>
+<style>
+:root{
+ --green:#087443;--green2:#0b8052;--green-dark:#04542f;--gold:#f2c400;
+ --navy:#101b33;--ink:#172033;--muted:#647084;--bg:#f5f8f7;--card:#fff;
+ --line:#dfe7e3;--soft:#eaf6ef;--cream:#fffbea;--danger:#b51f31;
+ --shadow:0 10px 30px rgba(15,35,28,.08);--radius:18px
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,94%);margin:auto}
+.hidden{display:none!important}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.center{text-align:center}
+.badge{display:inline-block;padding:5px 9px;border-radius:20px;background:var(--soft);color:var(--green-dark);font-size:12px;font-weight:800}
+.btn{border:0;border-radius:12px;padding:11px 16px;font-weight:800;transition:.2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--gold);color:#171717}
+.btn-green{background:var(--green);color:#fff}
+.btn-light{background:#fff;color:var(--green-dark)}
+.btn-outline{background:#fff;border:1px solid var(--line);color:var(--green-dark)}
+.btn-danger{background:#fff0f1;color:var(--danger)}
+.btn-small{padding:8px 11px;border-radius:9px;font-size:13px}
+.status{padding:12px 14px;border-radius:11px;background:#edf8f1;color:var(--green-dark);font-weight:700;margin-bottom:15px}
+.status.error{background:#fff0f0;color:var(--danger)}
+.empty{padding:28px;text-align:center;background:#fff;border:1px dashed #bccac4;border-radius:15px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.card h3{color:var(--navy);margin-bottom:7px}.card p{color:var(--muted)}
+.section{padding:42px 0 8px}.section-title{font-size:28px;color:var(--navy);margin-bottom:8px}.section-intro{color:var(--muted);margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.search-box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow);margin-bottom:18px}
+.search-box input,.search-box select,.search-box textarea{width:100%;border:1px solid #ccd8d3;border-radius:12px;padding:13px;outline:0;background:#fff}
+.search-box input:focus,.search-box select:focus,.search-box textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(8,116,67,.1)}
+.breadcrumb{display:flex;flex-wrap:wrap;gap:7px;align-items:center;color:var(--muted);font-size:14px;margin-bottom:15px}
+header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.header-inner{min-height:72px;display:flex;align-items:center;gap:14px;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;min-width:0}.brand-logo{width:54px;height:54px;object-fit:contain;border-radius:12px}
+.brand-name{font-size:18px;font-weight:900;color:var(--green);white-space:nowrap}.brand-sub{font-size:11px;color:var(--muted);white-space:nowrap}
+nav{display:flex;gap:3px;align-items:center;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+.nav-btn{border:0;background:transparent;color:var(--ink);font-weight:700;padding:10px 9px;border-radius:10px;white-space:nowrap}.nav-btn:hover{background:var(--soft);color:var(--green)}
+.menu-btn{display:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 12px;font-size:21px}
+.account-area{display:flex;align-items:center;gap:8px}.account-pill{font-size:12px;font-weight:800;color:var(--green-dark);background:var(--soft);padding:7px 9px;border-radius:20px}
+.hero{margin-top:22px;border-radius:26px;overflow:hidden;background:linear-gradient(135deg,#064f32,#0b8052 55%,#12365e);color:#fff;box-shadow:var(--shadow)}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:25px;padding:42px}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.04;margin:14px 0 16px;letter-spacing:-1.5px}.hero h1 span{color:#ffd900}.hero p{font-size:17px;max-width:720px;color:#eefcf5;margin-bottom:22px}
+.hero-buttons{display:flex;gap:10px;flex-wrap:wrap}.hero-logo{width:min(100%,390px);margin:auto;background:#fff;border-radius:20px;padding:18px}
+.topic-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:12px}.topic-card h3{color:var(--green-dark);margin-bottom:6px}
+.lesson{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}.lesson h2{color:var(--navy);margin:8px 0 12px}.lesson h3{margin-top:20px;margin-bottom:8px;color:var(--green-dark)}.lesson p{margin-bottom:10px}
+.step{padding:15px;background:#f6faf8;border-left:4px solid var(--green);border-radius:9px;margin:10px 0}.step strong{display:block;color:var(--green-dark);margin-bottom:4px}
+.memory-box{background:var(--cream);border:1px solid #f0d57a;border-radius:14px;padding:16px;margin-top:15px}.memory-box strong{color:#665000}
+.diagram-box{background:#f6f8fb;border:1px dashed #b7c4d0;border-radius:14px;padding:20px;margin-top:15px;text-align:center}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:16px}.toolbar>*{flex:1;min-width:170px}
+.toolbar input,.toolbar select{padding:11px;border:1px solid var(--line);border-radius:11px;background:#fff}
+.material-card,.course-card,.institution-card{display:flex;flex-direction:column;gap:9px}.icon{width:48px;height:48px;display:grid;place-items:center;background:var(--soft);border-radius:13px;font-size:24px}
+.price{font-size:20px;font-weight:900;color:var(--green-dark)}.course-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.progress{height:9px;background:#e7eeea;border-radius:20px;overflow:hidden}.progress>span{display:block;height:100%;background:var(--green);width:0}
+.creator{display:grid;grid-template-columns:320px 1fr;gap:30px;align-items:center}.creator-photo-wrap{background:#fff;border-radius:22px;padding:10px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.creator-photo{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;border-radius:16px}.creator h2{font-size:32px;color:var(--navy);margin-bottom:8px}.creator-role{color:var(--green);font-weight:800;margin-bottom:15px}.creator p{color:var(--muted);margin-bottom:12px}.quote{border-left:5px solid var(--gold);background:#fff;padding:16px 18px;border-radius:10px;margin-top:18px;color:var(--navy);font-weight:700}
+.notice{border:1px solid #f0d57a;background:var(--cream);border-radius:16px;padding:17px;margin-top:20px;color:#665000}
+.modal{position:fixed;inset:0;background:rgba(8,20,15,.62);z-index:3000;display:grid;place-items:center;padding:16px}.modal-card{width:min(620px,100%);max-height:92vh;overflow:auto;background:#fff;border-radius:20px;padding:22px;box-shadow:0 30px 80px rgba(0,0,0,.25)}.modal-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:15px}.close{border:0;background:#eef3f0;border-radius:9px;padding:7px 11px}
+.reader{background:#0d1721;color:#fff;border-radius:16px;min-height:420px;padding:20px}.reader iframe,.reader embed{width:100%;height:650px;border:0;background:#fff;border-radius:10px}
+.adbar{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:2500;width:min(700px,92%);background:#101b33;color:#fff;border-radius:14px;padding:12px 15px;box-shadow:0 15px 40px rgba(0,0,0,.25);display:flex;justify-content:space-between;gap:12px;align-items:center}.adbar button{border:0;background:#fff;color:#101b33;border-radius:8px;padding:6px 9px;font-weight:800}
+.quiz-option{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px;margin:8px 0}.quiz-option:hover{border-color:var(--green);background:var(--soft)}
+.table-wrap{overflow:auto}.data-table{width:100%;border-collapse:collapse;background:#fff}.data-table th,.data-table td{padding:11px;border-bottom:1px solid var(--line);text-align:left}.data-table th{background:#f1f6f3;color:var(--navy)}
+footer{margin-top:55px;background:#0c1724;color:#dbe5e2;padding:35px 0}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px}footer h3{color:#fff;margin-bottom:10px}footer p,footer li{color:#aebdb8;font-size:14px}footer ul{list-style:none}footer li{margin:5px 0}.copyright{border-top:1px solid #263746;margin-top:25px;padding-top:18px;font-size:13px;color:#91a29d}
+@media(max-width:900px){.header-inner{flex-wrap:wrap;padding:9px 0}.menu-btn{display:block}nav{display:none;width:100%;flex-wrap:wrap;padding-bottom:6px}nav.open{display:flex}.account-area{margin-left:auto}.hero-grid{grid-template-columns:1fr;padding:28px 20px}.grid,.three{grid-template-columns:1fr 1fr}.two,.creator{grid-template-columns:1fr}.creator-photo-wrap{max-width:350px;margin:auto}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.brand-name{font-size:15px}.brand-sub{font-size:9px}.brand-logo{width:45px;height:45px}.hero{border-radius:18px}.hero h1{font-size:34px}.grid,.three{grid-template-columns:1fr}.section{padding-top:30px}.creator h2{font-size:27px}.account-pill{display:none}.adbar{font-size:12px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap header-inner">
+<a href="#" class="brand" onclick="go('home');return false">
+<img class="brand-logo" src="passco_gh_logo_horizontal.webp" alt="PASSCO GH MODOO logo">
+<div><div class="brand-name">PASSCOGH-MODOO</div><div class="brand-sub">Learn • Prepare • Choose</div></div>
+</a>
+<button class="menu-btn" aria-label="Open navigation" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<button class="nav-btn" onclick="go('home')">Home</button>
+<button class="nav-btn" onclick="go('pre-shs')">Pre-SHS</button>
+<button class="nav-btn" onclick="go('jhs')">JHS</button>
+<button class="nav-btn" onclick="go('shs')">SHS</button>
+<button class="nav-btn" onclick="go('pre-uni')">Pre-University</button>
+<button class="nav-btn" onclick="go('tertiary')">University & Colleges</button>
+<button class="nav-btn" onclick="go('materials')">Materials</button>
+<button class="nav-btn" onclick="go('courses')">Courses & Certificates</button>
+<button class="nav-btn" onclick="go('guidance')">Guidance</button>
+<button class="nav-btn" onclick="go('creator')">Creator</button>
+</nav>
+<div class="account-area">
+<span id="accountPill" class="account-pill">Guest</span>
+<button class="btn btn-outline btn-small" onclick="openAccount()">Account</button>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+<div id="app"><div class="section loading center">Loading PASSCOGH-MODOO…</div></div>
+</main>
+
+<footer>
+<div class="wrap footer-grid">
+<div><h3>PASSCOGH-MODOO</h3><p>A learner-focused Ghanaian education platform for learning, examination preparation, courses, certificates and informed educational choices.</p></div>
+<div><h3>Learn</h3><ul><li>Pre-SHS</li><li>JHS 1–3</li><li>SHS 1–3</li><li>Pre-University</li><li>University & Colleges</li></ul></div>
+<div><h3>Explore</h3><ul><li>Learning materials</li><li>Courses & certificates</li><li>Quizzes & revision</li><li>Institution guidance</li><li>Creator/Admin</li></ul></div>
+</div>
+<div class="wrap copyright">© <span id="year"></span> PASSCOGH-MODOO. Created for Ghanaian learners.</div>
+</footer>
+
+<div id="modalRoot"></div>
+<div id="adbar" class="adbar hidden"><span>📢 PASSCOGH-MODOO learning reminder — next ad in <b id="adCountdown">15:00</b></span><button onclick="closeAd()">×</button></div>
+
+<script>
+/* =========================================================
+   PASSCOGH-MODOO COMPLETE FRONTEND
+   Designed to work with the existing backend where available.
+   Backend endpoints used:
+   /api/curriculum
+   /api/institutions
+   /api/materials
+   /api/courses
+   /api/me
+   /api/downloads/create
+   /api/payments/verify
+   /api/enrollments
+   /api/certificates
+   /api/search
+========================================================= */
+
+const API={
+ curriculum:"/api/curriculum",
+ institutions:"/api/institutions",
+ materials:"/api/materials",
+ courses:"/api/courses",
+ me:"/api/me",
+ search:"/api/search",
+ download:"/api/downloads/create",
+ paymentVerify:"/api/payments/verify",
+ enrollments:"/api/enrollments",
+ certificates:"/api/certificates"
+};
+
+let DATA={};
+let INSTITUTIONS=[];
+let MATERIALS=[];
+let COURSES=[];
+let USER=null;
+let state={page:"home",level:null,programme:null,subject:null,strand:null,topic:null,query:""};
+let adSeconds=900;
+let adTimer=null;
+const app=document.getElementById("app");
+document.getElementById("year").textContent=new Date().getFullYear();
+
+function esc(v){
+return String(v??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+}
+function first(obj,keys,fallback=""){
+if(!obj)return fallback;
+for(const k of keys)if(obj[k]!==undefined&&obj[k]!==null&&obj[k]!=="")return obj[k];
+return fallback;
+}
+function arr(v){
+if(Array.isArray(v))return v;
+if(v&&typeof v==="object")return Object.entries(v).map(([id,x])=>typeof x==="object"&&x?{id,...x}:{id,name:id,description:String(x)});
+return [];
+}
+function nameOf(x,f="Untitled"){return first(x,["name","title","subject","label","topicName","courseName","institutionName"],f)}
+function descOf(x,f=""){return first(x,["description","intro","summary","details","about","overview"],f)}
+function text(v){if(v===undefined||v===null)return "";if(typeof v==="string")return v;if(typeof v==="number"||typeof v==="boolean")return String(v);try{return JSON.stringify(v)}catch{return ""}}
+function normalizeLevel(level){
+const s=String(level||"").toLowerCase().replace(/\s+/g,"-");
+if(s.includes("pre-shs")||s.includes("pres-hs"))return"pre-shs";
+if(s==="jhs"||s.includes("junior"))return"jhs";
+if(s==="shs"||s.includes("senior"))return"shs";
+if(s.includes("pre-uni")||s.includes("preuniversity"))return"pre-uni";
+if(s.includes("tertiary")||s.includes("university")||s.includes("college"))return"tertiary";
+return s;
+}
+function levelLabel(x){
+return {"pre-shs":"Pre-SHS","jhs":"JHS 1–3","shs":"SHS 1–3","pre-uni":"Pre-University","tertiary":"University & Colleges"}[x]||x;
+}
+function hasOwnerAccess(){return !!USER&&(USER.isOwner||USER.isAdmin||USER.role==="owner"||USER.role==="admin")}
+function isLogged(){return !!USER}
+function closeModal(){document.getElementById("modalRoot").innerHTML=""}
+function openModal(title,body){
+document.getElementById("modalRoot").innerHTML=`<div class="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><div class="modal-head"><h2>${esc(title)}</h2><button class="close" onclick="closeModal()">×</button></div>${body}</div></div>`;
+}
+function toggleMenu(){document.getElementById("nav").classList.toggle("open")}
+function go(page){
+state={page,level:null,programme:null,subject:null,strand:null,topic:null,query:""};
+document.getElementById("nav").classList.remove("open");
+render();scrollTo({top:0,behavior:"smooth"});
+}
+function openLevel(level){state={page:"level",level,programme:null,subject:null,strand:null,topic:null,query:""};render();scrollTo({top:0,behavior:"smooth"})}
+function openProgramme(p){state.programme=p;state.subject=null;state.strand=null;state.topic=null;render()}
+function openSubject(s){state.subject=s;state.strand=null;state.topic=null;render();scrollTo({top:0,behavior:"smooth"})}
+function openStrand(s){state.strand=s;state.topic=null;render()}
+function openTopic(t){state.topic=t;render();scrollTo({top:0,behavior:"smooth"})}
+function backLevel(){state.programme=null;state.subject=null;state.strand=null;state.topic=null;render()}
+function backProgramme(){state.subject=null;state.strand=null;state.topic=null;render()}
+function backSubject(){state.strand=null;state.topic=null;render()}
+function backStrand(){state.topic=null;render()}
+
+async function apiGet(url){
+try{
+const r=await fetch(url,{credentials:"include"});
+if(!r.ok)throw new Error("HTTP "+r.status);
+return await r.json();
+}catch(e){console.warn("API unavailable:",url,e);return null}
+}
+async function apiPost(url,payload){
+const r=await fetch(url,{method:"POST",credentials:"include",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+if(!r.ok)throw new Error("HTTP "+r.status);
+return await r.json();
+}
+
+async function loadAll(){
+const [curr,inst,mat,courses,me]=await Promise.all([
+apiGet(API.curriculum),apiGet(API.institutions),apiGet(API.materials),apiGet(API.courses),apiGet(API.me)
+]);
+DATA=curr||{};
+INSTITUTIONS=arr(inst);
+MATERIALS=arr(mat);
+COURSES=arr(courses);
+USER=me||null;
+const pill=document.getElementById("accountPill");
+pill.textContent=USER?(hasOwnerAccess()?"Owner/Admin":first(USER,["name","email"],"Learner")):"Guest";
+render();
+startAds();
+}
+
+function getLevelData(level){
+if(!DATA)return null;
+return DATA[level]||DATA[normalizeLevel(level)]||null;
+}
+function getProgrammes(level){
+const d=getLevelData(level);
+if(!d)return[];
+if(Array.isArray(d))return d;
+return arr(first(d,["programmes","pathways","programs","courses"],[]));
+}
+function getSubjects(level,programme){
+const d=getLevelData(level);
+let source=programme?first(programme,["subjects"],[]):first(d,["subjects"],[]);
+if(!source&&programme)source=programme;
+if(Array.isArray(source))return source;
+if(source&&typeof source==="object")return arr(source);
+if(Array.isArray(DATA.subjects)){
+return DATA.subjects.filter(s=>{
+const l=first(s,["level","stage","schoolLevel"],"");
+return !l||normalizeLevel(l)===normalizeLevel(level);
+});
+}
+return[];
+}
+function getStrands(subject){
+return arr(first(subject,["strands","units","topics","chapters"],[]));
+}
+function getSubStrands(strand){return arr(first(strand,["subStrands","sub-strands","topics","lessons"],[]))}
+function getStandards(item){return arr(first(item,["contentStandards","standards","learningAreas"],[]))}
+function getIndicators(item){return arr(first(item,["learningIndicators","indicators","outcomes"],[]))}
+function getLessons(item){return arr(first(item,["lessons","lesson","content","sections"],[]))}
+
+function home(){
+const cards=[
+["🟦","Pre-SHS","Build readiness for Senior High School, strengthen core skills and understand pathways.","pre-shs"],
+["📚","JHS 1–3","Study JHS subjects, strands, topics, revision questions and learning support.","jhs"],
+["🎓","SHS 1–3","Explore SHS pathways, subjects, WASSCE preparation, lessons and practice.","shs"],
+["🚀","Pre-University","Prepare for tertiary entry, eligibility, programmes, institutions and careers.","pre-uni"],
+["🏫","University & Colleges","Explore institutions, programmes, accreditation guidance and comparison information.","tertiary"],
+["🧠","Materials","Read learning resources online and manage permitted downloads.","materials"],
+["🏆","Courses & Certificates","Discover skill-building courses, enrol and work toward certificates.","courses"],
+["🧭","Guidance","Get study, pathway, application and career guidance.","guidance"]
+];
+app.innerHTML=`<section class="hero"><div class="hero-grid"><div>
+<span class="badge">🇬🇭 Built for Ghanaian learners</span>
+<h1>Learn.<br><span>Prepare.</span><br>Choose.</h1>
+<p>PASSCOGH-MODOO brings curriculum learning, examination preparation, educational materials, courses, certificates and educational guidance into one learner-focused platform.</p>
+<div class="hero-buttons"><button class="btn btn-primary" onclick="openLevel('shs')">Start Learning</button><button class="btn btn-light" onclick="go('courses')">Explore Courses</button><button class="btn btn-light" onclick="go('guidance')">Get Guidance</button></div>
+</div><div><img class="hero-logo" src="passco_gh_logo_horizontal.webp" alt="PASSCOGH-MODOO"></div></div></section>
+<section class="section"><h2 class="section-title">What do you want to do?</h2><p class="section-intro">Choose a learning stage, resource or pathway.</p><div class="grid">${cards.map((c,i)=>`<article class="card"><div style="font-size:31px;margin-bottom:8px">${c[0]}</div><h3>${esc(c[1])}</h3><p>${esc(c[2])}</p><button class="btn btn-outline btn-small" onclick="${c[3]==="courses"||c[3]==="materials"||c[3]==="guidance"||c[3]==="tertiary"?"go('"+c[3]+"')":"openLevel('"+c[3]+"')"}">Explore →</button></article>`).join("")}</div></section>
+<section class="section"><div class="search-box"><h2 class="section-title">🔎 Find something quickly</h2><p class="section-intro">Search subjects, topics, materials, courses and institutions.</p><input id="globalSearch" placeholder="Search subjects, topics, institutions, courses…" oninput="globalSearch(this.value)"></div><div id="searchResults"></div></section>
+<section class="section"><div class="three">
+<div class="card"><h3>📝 Exam Preparation</h3><p>Use revision support, practice questions, quizzes and structured lessons to prepare more effectively.</p></div>
+<div class="card"><h3>🧠 Understand, Don't Cram</h3><p>Lessons are designed around clear explanations, familiar memory clues and practical examples.</p></div>
+<div class="card"><h3>🔐 Protected Materials</h3><p>Online reading and controlled access can be connected to the platform's backend rules.</p></div>
+</div></section>
+<section class="section"><div class="notice"><strong>📌 Important:</strong> PASSCOGH-MODOO provides learning and educational guidance. Official curriculum documents, examination requirements, accreditation and institutional requirements should be verified with the relevant official authority.</div></section>`;
+}
+
+function levelView(level){
+const title=levelLabel(level);
+if(state.topic)return lessonView();
+if(state.strand)return strandView();
+if(state.subject)return subjectView();
+const programmes=getProgrammes(level);
+const subjects=getSubjects(level,null);
+let html=`<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ ${esc(title)}</span></div><h1 class="section-title">${esc(title)}</h1><p class="section-intro">Follow the curriculum hierarchy: pathway/programme → subject → strand/sub-strand → content standard → learning indicator → PASSCOGH lesson.</p>`;
+if(programmes.length){
+html+=`<h2 class="section-title" style="font-size:22px">Pathways & Programmes</h2><div class="grid">${programmes.map((p,i)=>`<article class="card"><span class="badge">Pathway / Programme</span><h3>${esc(nameOf(p,"Programme "+(i+1)))}</h3><p>${esc(descOf(p,"Explore the subjects and learning structure in this pathway."))}</p><button class="btn btn-outline btn-small" onclick="openProgrammeByIndex('${esc(level)}',${i})">Open Programme →</button></article>`).join("")}</div>`;
+}else if(subjects.length){
+html+=subjectGrid(level,subjects);
+}else{
+html+=`<div class="empty">Curriculum data for ${esc(title)} is not currently available from the backend. The page is ready to display it automatically when supplied.</div>`;
+}
+html+=`</section>`;
+return html;
+}
+function subjectGrid(level,subjects){
+return `<div class="search-box" style="margin-top:20px"><input id="subjectFilter" placeholder="Filter subjects…" oninput="filterCards(this.value)"></div><div id="subjectGrid" class="grid">${subjects.map((s,i)=>`<article class="card filter-card" data-search="${esc((nameOf(s)+" "+descOf(s)).toLowerCase())}"><span class="badge">Subject</span><h3>${esc(nameOf(s,"Subject "+(i+1)))}</h3><p>${esc(descOf(s,"Explore strands, topics and lessons."))}</p><button class="btn btn-outline btn-small" onclick="openSubjectByIndex('${esc(level)}',${i})">Open Subject →</button></article>`).join("")}</div>`;
+}
+function openProgrammeByIndex(level,i){const p=getProgrammes(level)[i];if(p){state.programme=p;state.subject=null;state.strand=null;state.topic=null;render()}}
+function openSubjectByIndex(level,i){const s=getSubjects(level,state.programme)[i];if(s)openSubject(s)}
+
+function subjectView(){
+const s=state.subject;
+const strands=getStrands(s);
+let html=`<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="backLevel()">← ${esc(levelLabel(state.level))}</button>${state.programme?`<span>/ ${esc(nameOf(state.programme))}</span>`:""}<span>/ ${esc(nameOf(s,"Subject"))}</span></div><h1 class="section-title">${esc(nameOf(s,"Subject"))}</h1><p class="section-intro">${esc(descOf(s,"Explore the curriculum structure and lessons for this subject."))}</p>`;
+html+=`<div class="notice"><strong>🧠 PASSCOGH study method:</strong> Understand the concept → remember it with a simple mnemonic → practise → test yourself → explain it without looking.</div>`;
+if(strands.length){
+html+=`<section class="section"><h2 class="section-title" style="font-size:23px">Strands / Units / Topics</h2>${strands.map((x,i)=>`<article class="topic-card"><span class="badge">Strand / Unit</span><h3>${esc(nameOf(x,"Strand "+(i+1)))}</h3><p>${esc(descOf(x,"Open to see sub-strands, standards, indicators and lessons."))}</p><button class="btn btn-green btn-small" onclick="openStrandByIndex(${i})">Open →</button></article>`).join("")}</section>`;
+}else{
+html+=`<div class="empty" style="margin-top:20px">No strands/topics are currently supplied for this subject.</div>`;
+}
+html+=`</section>`;
+return html;
+}
+function openStrandByIndex(i){const x=getStrands(state.subject)[i];if(x)openStrand(x)}
+
+function strandView(){
+const s=state.subject,x=state.strand;
+const subs=getSubStrands(x),standards=getStandards(x),indicators=getIndicators(x),lessons=getLessons(x);
+let html=`<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="backSubject()">← ${esc(nameOf(s,"Subject"))}</button><span>/ ${esc(nameOf(x,"Strand"))}</span></div><h1 class="section-title">${esc(nameOf(x,"Strand / Topic"))}</h1><p class="section-intro">${esc(descOf(x,"Study the curriculum structure and original PASSCOGH-MODOO lesson content."))}</p>`;
+if(subs.length)html+=`<h2 class="section-title" style="font-size:22px">Sub-Strands</h2><div class="grid">${subs.map((z,i)=>`<article class="card"><span class="badge">Sub-Strand</span><h3>${esc(nameOf(z,"Sub-Strand "+(i+1)))}</h3><p>${esc(descOf(z,"Open to study."))}</p><button class="btn btn-green btn-small" onclick="openTopicByStrandIndex(${i})">Study →</button></article>`).join("")}</div>`;
+if(standards.length)html+=`<section class="section"><h2 class="section-title" style="font-size:22px">Content Standards</h2>${standards.map((z,i)=>`<div class="topic-card"><h3>${esc(nameOf(z,"Content Standard "+(i+1)))}</h3><p>${esc(descOf(z,""))}</p></div>`).join("")}</section>`;
+if(indicators.length)html+=`<section class="section"><h2 class="section-title" style="font-size:22px">Learning Indicators</h2><div class="card"><ul style="padding-left:20px">${indicators.map(z=>`<li>${esc(nameOf(z,text(z)))}</li>`).join("")}</ul></div></section>`;
+if(lessons.length)html+=`<section class="section"><h2 class="section-title" style="font-size:22px">PASSCOGH Lessons</h2>${lessons.map((z,i)=>`<article class="topic-card"><span class="badge">Lesson</span><h3>${esc(nameOf(z,"Lesson "+(i+1)))}</h3><p>${esc(descOf(z,""))}</p><button class="btn btn-green btn-small" onclick="openTopicByLessonIndex(${i})">Open Lesson →</button></article>`).join("")}`;
+if(!subs.length&&!standards.length&&!indicators.length&&!lessons.length)html+=`<div class="empty">Detailed content for this strand is not yet supplied by the backend.</div>`;
+html+=`</section>`;return html;
+}
+function openTopicByStrandIndex(i){const x=getSubStrands(state.strand)[i];if(x)openTopic(x)}
+function openTopicByLessonIndex(i){const x=getLessons(state.strand)[i];if(x)openTopic(x)}
+
+function lessonView(){
+const t=state.topic;
+const raw=first(t,["content","body","explanation","text"],"");
+const parts=getLessons(t);
+let body="";
+if(parts.length)body=parts.map((x,i)=>`<div class="step"><strong>${esc(nameOf(x,"Step "+(i+1)))}</strong><div>${formatText(descOf(x,text(x)))}</div></div>`).join("");
+else if(raw)body=`<div>${formatText(raw)}</div>`;
+else body=`<div class="empty">This topic exists in the curriculum data, but detailed lesson content has not yet been supplied.</div>`;
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="backStrand()">← ${esc(nameOf(state.strand,"Strand"))}</button><span>/ ${esc(nameOf(t,"Lesson"))}</span></div><article class="lesson"><span class="badge">📖 PASSCOGH-MODOO Lesson</span><h2>${esc(nameOf(t,"Lesson"))}</h2><p>${esc(descOf(t,""))}</p><h3>Lesson Explanation</h3>${body}
+<div class="memory-box"><strong>🧠 Memory Trick</strong><p>${esc(first(t,["mnemonic","memoryTip","memory","acronym"],"Create a funny, familiar acronym or short phrase that helps you recall the key points."))}</p></div>
+<div class="diagram-box"><strong>✏️ Practice & Recall</strong><p>Close your notes and explain the idea in your own words. Then solve a question without looking.</p></div>
+${calculationBlock(t)}
+<div style="margin-top:18px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-green" onclick="openQuizForTopic()">📝 Test Yourself</button><button class="btn btn-outline" onclick="printLesson()">🖨️ Print / Save</button></div>
+</article></section>`;
+}
+function formatText(v){return esc(v).replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>")}
+function calculationBlock(t){
+const sol=first(t,["solution","workedSolution","calculation","working"],null);
+if(!sol)return"";
+const steps=arr(sol);
+if(steps.length)return`<h3>🧮 Step-by-Step Working</h3>${steps.map((x,i)=>`<div class="step"><strong>Step ${i+1}: ${esc(nameOf(x,"Working"))}</strong><div>${formatText(descOf(x,text(x)))}</div></div>`).join("")}`;
+return`<h3>🧮 Step-by-Step Working</h3><div class="step">${formatText(sol)}</div>`;
+}
+
+function materialsView(){
+const local=MATERIALS.length?MATERIALS:sampleMaterials();
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ Materials</span></div><h1 class="section-title">📚 Learning Materials</h1><p class="section-intro">Read permitted learning materials online. Download access is handled separately by the connected backend.</p>
+<div class="search-box"><div class="toolbar"><input id="materialSearch" placeholder="Search materials…" oninput="filterMaterialCards(this.value)"><select id="materialType" onchange="filterMaterialCards(document.getElementById('materialSearch').value)"><option value="">All types</option><option value="pdf">PDF</option><option value="notes">Notes</option><option value="past-question">Past Questions</option><option value="guide">Exam Guide</option></select></div><p class="small muted">Online reading is free where permitted. Individual downloads may require payment according to the platform's access rules.</p></div>
+<div id="materialGrid" class="grid">${local.map((m,i)=>materialCard(m,i)).join("")}</div>
+<div class="notice"><strong>© Copyright & access:</strong> Materials are provided under the permissions and access rules implemented by PASSCOGH-MODOO. The platform can discourage copying and uncontrolled sharing, but no website can guarantee that a user will never capture or redistribute content.</div></section>`;
+}
+function sampleMaterials(){return[
+{id:"demo1",name:"JHS Revision Notes",type:"notes",description:"Structured revision support for JHS learners.",freeRead:true},
+{id:"demo2",name:"SHS Examination Revision Pack",type:"past-question",description:"Practice-oriented revision material.",freeRead:true},
+{id:"demo3",name:"WASSCE Study Guide",type:"guide",description:"Planning and examination preparation guidance.",freeRead:true}
+]}
+function materialCard(m,i){
+const id=first(m,["id","materialId"],"m"+i),type=first(m,["type","format"],"material"),read=first(m,["readUrl","viewUrl","url","fileUrl"],"");
+return `<article class="card material-card material-item" data-type="${esc(String(type).toLowerCase())}" data-search="${esc((nameOf(m)+" "+descOf(m)).toLowerCase())}"><div class="icon">📄</div><span class="badge">${esc(type)}</span><h3>${esc(nameOf(m,"Learning Material"))}</h3><p>${esc(descOf(m,"Learning resource."))}</p><div class="course-actions"><button class="btn btn-green btn-small" onclick="readMaterial('${esc(id)}','${esc(read)}')">Read Online →</button><button class="btn btn-outline btn-small" onclick="downloadMaterial('${esc(id)}')">Download</button></div></article>`;
+}
+function filterMaterialCards(q){
+q=String(q||"").toLowerCase();const type=(document.getElementById("materialType")||{}).value||"";
+document.querySelectorAll(".material-item").forEach(x=>{const ok=(!q||(x.dataset.search||"").includes(q))&&(!type||(x.dataset.type||"").includes(type));x.style.display=ok?"":"none"});
+}
+function findMaterial(id){return MATERIALS.find(x=>String(first(x,["id","materialId"]))===String(id))}
+function readMaterial(id,url){
+const m=findMaterial(id)||sampleMaterials().find(x=>x.id===id);
+if(!m){openModal("Material","Material not found.");return}
+if(url)openModal("Read Online — "+nameOf(m),`<div class="reader"><iframe src="${esc(url)}" title="Learning material"></iframe></div><p class="small muted" style="margin-top:10px">Reading access is subject to the material's permissions.</p>`);
+else openModal("Read Online — "+nameOf(m),`<div class="reader"><h3>${esc(nameOf(m))}</h3><p style="margin-top:10px">${esc(descOf(m))}</p><p style="margin-top:18px">The backend has not supplied a reader URL for this material yet.</p></div>`);
+}
+async function downloadMaterial(id){
+if(hasOwnerAccess()){openModal("Owner Access","Owner/Admin access is enabled for this account. The backend should authorize the download without charging the owner.");return}
+if(!isLogged()){openAccount();return}
+try{
+const result=await apiPost(API.download,{materialId:id});
+if(result&&result.url)location.href=result.url;
+else if(result&&result.checkoutUrl)location.href=result.checkoutUrl;
+else openModal("Download","The backend requires payment/verification before this download. Connect the payment flow to continue.");
+}catch(e){openModal("Download","Download payment could not be started. Please try again when the payment service is connected.")}
+}
+
+function coursesView(){
+const list=COURSES.length?COURSES:sampleCourses();
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ Courses & Certificates</span></div><h1 class="section-title">🏆 Courses & Certificates</h1><p class="section-intro">Skill-building courses designed to provide useful learning and valuable certificates.</p><div class="search-box"><input id="courseSearch" placeholder="Search courses…" oninput="filterCourseCards(this.value)"></div><div class="grid" id="courseGrid">${list.map((c,i)=>courseCard(c,i)).join("")}</div><div class="notice"><strong>Course pricing:</strong> Standard course price is <b>GH₵20</b> unless a course supplied by the backend specifies another approved price. The creator/owner account is intended to have free/unlimited access.</div></section>`;
+}
+function sampleCourses(){return[
+{id:"coding",name:"Coding & Programming Foundations",description:"Learn programming logic and practical coding foundations.",price:20,certificate:true},
+{id:"digital",name:"Digital Skills for Students",description:"Build useful digital productivity and study skills.",price:20,certificate:true},
+{id:"exam",name:"Smart Examination Preparation",description:"Plan revision, practise effectively and improve exam technique.",price:20,certificate:true},
+{id:"career",name:"Career & Tertiary Readiness",description:"Understand pathways, choices, applications and career planning.",price:20,certificate:true}
+]}
+function courseCard(c,i){
+const id=first(c,["id","courseId"],"c"+i),price=Number(first(c,["price","amount"],20));
+return `<article class="card course-card course-item" data-search="${esc((nameOf(c)+" "+descOf(c)).toLowerCase())}"><div class="icon">🏆</div><span class="badge">${first(c,["certificate"],true)?"Certificate course":"Course"}</span><h3>${esc(nameOf(c,"Course"))}</h3><p>${esc(descOf(c,"Practical learning course."))}</p><div class="price">GH₵${price}</div><div class="course-actions"><button class="btn btn-green btn-small" onclick="courseDetails('${esc(id)}')">View Course</button><button class="btn btn-primary btn-small" onclick="enrolCourse('${esc(id)}')">Enrol</button></div></article>`;
+}
+function filterCourseCards(q){q=String(q||"").toLowerCase();document.querySelectorAll(".course-item").forEach(x=>x.style.display=!q||(x.dataset.search||"").includes(q)?"":"none")}
+function findCourse(id){return COURSES.find(x=>String(first(x,["id","courseId"]))===String(id))||sampleCourses().find(x=>x.id===id)}
+function courseDetails(id){
+const c=findCourse(id);if(!c)return;
+openModal(nameOf(c),`<span class="badge">🏆 Certificate course</span><p style="margin-top:12px">${esc(descOf(c))}</p><h3 style="margin-top:18px">What you can expect</h3><ul style="padding-left:20px;margin-top:8px"><li>Structured lessons and practical activities</li><li>Progress tracking where supported by the backend</li><li>Assessment / quiz completion</li><li>Certificate eligibility when requirements are met</li></ul><div class="notice"><strong>Price:</strong> GH₵${Number(first(c,["price","amount"],20))}</div><button class="btn btn-primary" style="margin-top:15px" onclick="closeModal();enrolCourse('${esc(first(c,["id","courseId"],""))}')">Enrol Now →</button>`);
+}
+async function enrolCourse(id){
+if(hasOwnerAccess()){openModal("Owner Access","Your owner/admin account is configured for free course access. The backend should record the enrolment without charging you.");return}
+if(!isLogged()){openAccount();return}
+const c=findCourse(id),price=Number(first(c||{},["price","amount"],20));
+openModal("Course Enrolment",`<p>You are enrolling in <b>${esc(nameOf(c,"Course"))}</b>.</p><p style="margin-top:8px"><b>Amount: GH₵${price}</b></p><p class="small muted" style="margin-top:8px">Payment verification must be completed by the connected backend/payment provider.</p><button class="btn btn-primary" style="margin-top:15px" onclick="startCoursePayment('${esc(id)}',${price})">Continue to Payment</button>`);
+}
+async function startCoursePayment(id,price){
+try{
+const r=await apiPost("/api/courses/enrol",{courseId:id,amount:price});
+if(r&&r.authorization_url)location.href=r.authorization_url;
+else if(r&&r.checkoutUrl)location.href=r.checkoutUrl;
+else openModal("Payment","The backend did not return a payment checkout URL. Connect the payment provider to complete enrolment.");
+}catch(e){openModal("Payment","Course payment could not be started.")}
+}
+
+function tertiaryView(){
+const list=INSTITUTIONS;
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ University & Colleges</span></div><h1 class="section-title">🏫 University & Colleges</h1><p class="section-intro">Explore institution information, programmes, accreditation guidance and comparison support.</p><div class="search-box"><input id="institutionSearch" placeholder="Search institutions, programmes or locations…" oninput="filterInstitutionCards(this.value)"></div>${list.length?`<div class="grid" id="institutionGrid">${list.map((x,i)=>institutionCard(x,i)).join("")}</div>`:`<div class="empty">Institution data is not currently available from the backend.</div>`}<div class="notice"><strong>⚠️ Verification:</strong> Accreditation, admission requirements, application deadlines and programme availability can change. Verify important decisions with the relevant official institution or authority.</div></section>`;
+}
+function institutionCard(x,i){
+return `<article class="card institution-card institution-item" data-search="${esc((nameOf(x)+" "+descOf(x)+" "+first(x,["location","city","region"],"")).toLowerCase())}"><span class="badge">Institution</span><h3>${esc(nameOf(x,"Institution "+(i+1)))}</h3><p>${esc(descOf(x,"Institution information."))}</p>${first(x,["location","city","region"],"")?`<p><b>Location:</b> ${esc(first(x,["location","city","region"],""))}</p>`:""}<button class="btn btn-outline btn-small" onclick="institutionDetails(${i})">View Details →</button></article>`;
+}
+function filterInstitutionCards(q){q=String(q||"").toLowerCase();document.querySelectorAll(".institution-item").forEach(x=>x.style.display=!q||(x.dataset.search||"").includes(q)?"":"none")}
+function institutionDetails(i){
+const x=INSTITUTIONS[i];if(!x)return;
+openModal(nameOf(x),`<p>${esc(descOf(x,"Institution information."))}</p><div style="margin-top:15px"><b>Location:</b> ${esc(first(x,["location","city","region"],"Not supplied"))}</div><div style="margin-top:8px"><b>Programmes:</b> ${esc(text(first(x,["programmes","courses"],"Not supplied")))}</div><div class="notice"><strong>Check before applying:</strong> Confirm accreditation, entry requirements, fees, application process and deadlines with the institution/official authority.</div>`);
+}
+
+function guidanceView(){
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ Guidance</span></div><h1 class="section-title">🧭 Educational & Career Guidance</h1><p class="section-intro">Support for choosing pathways, preparing for tertiary education and planning careers.</p><div class="grid">
+<article class="card"><h3>🎒 Pre-SHS Readiness</h3><p>Review core skills, BECE readiness, SHS pathway choices and subject preparation.</p><button class="btn btn-outline btn-small" onclick="openLevel('pre-shs')">Explore Pre-SHS →</button></article>
+<article class="card"><h3>🎓 Pre-University Eligibility</h3><p>Prepare for the transition from SHS to tertiary education and understand entry considerations.</p><button class="btn btn-outline btn-small" onclick="openLevel('pre-uni')">Explore →</button></article>
+<article class="card"><h3>🏫 Institution Comparison</h3><p>Compare available institution information and verify accreditation and requirements.</p><button class="btn btn-outline btn-small" onclick="go('tertiary')">Compare →</button></article>
+<article class="card"><h3>💼 Career Pathways</h3><p>Connect interests, programmes, skills and possible career directions.</p><button class="btn btn-outline btn-small" onclick="showCareerTool()">Career Tool →</button></article>
+<article class="card"><h3>📝 Application Guidance</h3><p>Prepare documents, understand application steps and check official requirements before submitting.</p><button class="btn btn-outline btn-small" onclick="showApplicationGuide()">View Guide →</button></article>
+<article class="card"><h3>🧠 Study Guidance</h3><p>Use active recall, spaced revision, practice questions and explanation rather than memorising blindly.</p><button class="btn btn-outline btn-small" onclick="showStudyGuide()">Study Guide →</button></article>
+</div></section>`;
+}
+function showCareerTool(){openModal("Career Pathway Tool",`<p>Select areas you enjoy and compare possible directions.</p><div class="search-box" style="margin-top:15px"><label>Interest area</label><select id="careerInterest"><option>Technology / Coding</option><option>Business / Entrepreneurship</option><option>Health / Science</option><option>Education / Communication</option><option>Engineering / Technical</option><option>Arts / Design</option></select></div><button class="btn btn-green" onclick="careerResult()">Show Guidance</button><div id="careerResult" style="margin-top:15px"></div>`)}
+function careerResult(){const v=document.getElementById("careerInterest").value;document.getElementById("careerResult").innerHTML=`<div class="status">For <b>${esc(v)}</b>, explore relevant SHS subjects, tertiary programmes, practical skills and current career information. Use official institutions and career services to verify requirements.</div>`}
+function showApplicationGuide(){openModal("Application Checklist",`<ol style="padding-left:20px"><li>Identify the programme and institution.</li><li>Verify accreditation and entry requirements.</li><li>Check application opening/closing dates.</li><li>Prepare required documents and accurate personal information.</li><li>Review fees and payment instructions carefully.</li><li>Submit through the official application channel.</li><li>Keep receipts and application references.</li></ol>`)}
+function showStudyGuide(){openModal("PASSCOGH Study Method",`<div class="step"><strong>1. Understand</strong>Learn what the concept means and why it works.</div><div class="step"><strong>2. Memory Trick</strong>Create a funny, familiar acronym or phrase.</div><div class="step"><strong>3. Practise</strong>Attempt examples without looking at the answer.</div><div class="step"><strong>4. Recall</strong>Close your notes and explain the concept aloud.</div><div class="step"><strong>5. Test</strong>Use quizzes and exam-style questions.</div>`)}
+
+function creatorView(){
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ Creator</span></div><div class="creator"><div class="creator-photo-wrap"><img class="creator-photo" src="awudu_mohammed_modoo_ayariga.webp" alt="Awudu Mohammed Modoo Ayariga" onerror="this.style.display='none'"></div><div><h2>Awudu Mohammed Modoo Ayariga</h2><div class="creator-role">Creator & Developer of PASSCOGH-MODOO</div><p>PASSCOGH-MODOO is designed to help Ghanaian learners learn better, prepare effectively and make informed educational choices.</p><p>The platform combines curriculum learning, revision support, learning materials, courses, certificates and educational guidance.</p><div class="quote">“Learn • Prepare • Choose.”</div>${hasOwnerAccess()?`<div class="status" style="margin-top:18px">👑 Owner/Admin access detected — the backend can provide free/unlimited access to platform features.</div>`:""}</div></div></section>`;
+}
+
+function accountView(){
+openModal("PASSCOGH-MODOO Account",`<p class="muted">Accounts allow the backend to control enrolments, downloads, certificates and owner/admin permissions.</p><div class="search-box" style="margin-top:15px"><input id="accountEmail" type="email" placeholder="Email address"><input id="accountName" style="margin-top:8px" placeholder="Name (for new account)"><button class="btn btn-green" style="margin-top:10px" onclick="requestAccount()">Continue</button></div><p class="small muted">Authentication is handled by the connected backend. Do not enter a password into this frontend unless the backend provides a secure authentication flow.</p>`);
+}
+function openAccount(){accountView()}
+async function requestAccount(){
+const email=document.getElementById("accountEmail").value.trim(),name=document.getElementById("accountName").value.trim();
+if(!email){alert("Enter your email address.");return}
+try{
+const r=await apiPost("/api/auth/request",{email,name});
+openModal("Check Your Account",`<p>${esc(first(r,["message"],"The authentication request was sent to the connected account service."))}</p>`);
+}catch(e){openModal("Account","The account service is not currently connected.")}
+}
+
+function searchAll(q){
+q=String(q||"").trim().toLowerCase();const out=[];
+["pre-shs","jhs","shs","pre-uni"].forEach(level=>getSubjects(level).forEach(s=>{
+if((nameOf(s)+" "+descOf(s)).toLowerCase().includes(q))out.push({type:"Subject",name:nameOf(s),desc:descOf(s),action:()=>{state.page="level";state.level=level;openSubject(s)}});
+getStrands(s).forEach(t=>{if((nameOf(t)+" "+descOf(t)).toLowerCase().includes(q))out.push({type:"Topic",name:nameOf(t),desc:descOf(t),action:()=>{state.page="level";state.level=level;state.subject=s;openStrand(t)}})})
+}));
+MATERIALS.forEach(m=>{if((nameOf(m)+" "+descOf(m)).toLowerCase().includes(q))out.push({type:"Material",name:nameOf(m),desc:descOf(m),action:()=>{go("materials")}})});
+COURSES.forEach(c=>{if((nameOf(c)+" "+descOf(c)).toLowerCase().includes(q))out.push({type:"Course",name:nameOf(c),desc:descOf(c),action:()=>{go("courses")}})});
+INSTITUTIONS.forEach(x=>{if((nameOf(x)+" "+descOf(x)).toLowerCase().includes(q))out.push({type:"Institution",name:nameOf(x),desc:descOf(x),action:()=>{go("tertiary")}})});
+return out;
+}
+window.__search=[];
+function globalSearch(q){
+const box=document.getElementById("searchResults");if(!box)return;
+if(!String(q).trim()){box.innerHTML="";return}
+window.__search=searchAll(q);
+if(!window.__search.length){box.innerHTML=`<div class="empty">No results found for <b>${esc(q)}</b>.</div>`;return}
+box.innerHTML=`<div class="section-title" style="font-size:20px">Search Results</div>${window.__search.slice(0,40).map((x,i)=>`<div class="card" style="margin-bottom:10px"><span class="badge">${esc(x.type)}</span><h3>${esc(x.name)}</h3><p>${esc(x.desc||"")}</p><button class="btn btn-outline btn-small" onclick="searchOpen(${i})">Open →</button></div>`).join("")}`;
+}
+function searchOpen(i){const x=window.__search[i];if(x&&x.action)x.action()}
+
+function openQuizForTopic(){
+const questions=arr(first(state.topic,["quiz","questions","assessment"],[]));
+if(!questions.length){
+openModal("Quick Recall Quiz",`<p>No quiz questions are attached to this topic yet.</p><p class="muted" style="margin-top:8px">The backend can supply questions through the topic's quiz/assessment data.</p>`);return;
+}
+let index=0,score=0;
+function draw(){
+const q=questions[index],options=arr(first(q,["options","choices"],[]));
+document.getElementById("quizBody").innerHTML=`<p><b>Question ${index+1} of ${questions.length}</b></p><h3 style="margin-top:10px">${esc(first(q,["question","text"],"Question"))}</h3>${options.map((o,i)=>`<button class="quiz-option" onclick="quizAnswer(${i})">${esc(typeof o==="object"?nameOf(o,text(o)):o)}</button>`).join("")}<p class="small muted" style="margin-top:10px">Score: ${score}</p>`;
+window.__quiz={questions,index,score,draw};
+}
+openModal("Topic Quiz",`<div id="quizBody"></div>`);draw();
+}
+function quizAnswer(i){
+const q=window.__quiz.questions[window.__quiz.index],correct=first(q,["correctIndex","answerIndex"],null);
+if(correct!==null&&Number(correct)===i)window.__quiz.score++;
+window.__quiz.index++;
+if(window.__quiz.index>=window.__quiz.questions.length){
+document.getElementById("quizBody").innerHTML=`<h3>Quiz Complete 🎉</h3><p style="margin-top:8px">Score: <b>${window.__quiz.score}/${window.__quiz.questions.length}</b></p><p class="muted" style="margin-top:8px">Review the lesson and try again to strengthen recall.</p>`;return;
+}
+window.__quiz.draw();
+}
+function printLesson(){window.print()}
+
+function dashboardView(){
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ My Learning</span></div><h1 class="section-title">📊 My Learning</h1>${USER?`<div class="two"><div class="card"><h3>Account</h3><p>${esc(first(USER,["name","email"],"Learner"))}</p><p class="small muted">${esc(first(USER,["role"],"learner"))}</p></div><div class="card"><h3>Progress</h3><div class="progress" style="margin-top:12px"><span style="width:${Number(first(USER,["progress"],0))}%"></span></div><p class="small muted" style="margin-top:7px">${Number(first(USER,["progress"],0))}% recorded progress</p></div></div>`:`<div class="empty">Please sign in to view your learning dashboard.</div>`}</section>`;
+}
+function ownerView(){
+if(!hasOwnerAccess())return`<section class="section"><div class="empty">Owner/Admin controls are restricted to authorized accounts.</div></section>`;
+return `<section class="section"><div class="breadcrumb"><button class="btn btn-outline btn-small" onclick="go('home')">← Home</button><span>/ Owner/Admin</span></div><h1 class="section-title">👑 Owner/Admin Control Centre</h1><div class="grid"><div class="card"><h3>Curriculum</h3><p>Manage levels, programmes, subjects, strands, standards, indicators and lessons through the backend.</p></div><div class="card"><h3>Materials</h3><p>Manage materials, online reading permissions and download rules.</p></div><div class="card"><h3>Courses</h3><p>Create courses, set pricing, manage certificates and learner enrolments.</p></div><div class="card"><h3>Payments</h3><p>Review payment verification and download/course transactions through the secure backend.</p></div><div class="card"><h3>Users</h3><p>Manage roles and authorized owner/admin access through the backend.</p></div><div class="card"><h3>Content Protection</h3><p>Use practical access controls, copyright notices, signed URLs and controlled downloads where supported.</p></div></div><div class="notice"><strong>Important:</strong> The browser frontend cannot securely enforce owner privileges, payment verification or protected downloads by itself. Those controls must be enforced server-side.</div></section>`;
+}
+
+function render(){
+try{
+if(state.page==="home")home();
+else if(state.page==="materials")app.innerHTML=materialsView();
+else if(state.page==="courses")app.innerHTML=coursesView();
+else if(state.page==="tertiary")app.innerHTML=tertiaryView();
+else if(state.page==="guidance")app.innerHTML=guidanceView();
+else if(state.page==="creator")app.innerHTML=creatorView();
+else if(state.page==="account")app.innerHTML=dashboardView();
+else if(state.page==="owner")app.innerHTML=ownerView();
+else app.innerHTML=levelView(state.level);
+}catch(e){console.error(e);app.innerHTML=`<section class="section"><div class="status error">Something went wrong while displaying this page.</div><div class="empty">Refresh the page. If the problem continues, check the backend data.</div></section>`}
+}
+
+function startAds(){
+if(adTimer)return;
+adTimer=setInterval(()=>{
+if(hasOwnerAccess())return;
+adSeconds--;
+if(adSeconds<=0){adSeconds=900;showAd();}
+const m=Math.floor(adSeconds/60),s=String(adSeconds%60).padStart(2,"0");
+document.getElementById("adCountdown").textContent=`${m}:${s}`;
+},1000);
+}
+function showAd(){document.getElementById("adbar").classList.remove("hidden")}
+function closeAd(){document.getElementById("adbar").classList.add("hidden")}
+
+function openCertificate(id){
+if(!isLogged()){openAccount();return}
+apiGet(API.certificates+"?id="+encodeURIComponent(id)).then(r=>{
+if(r&&r.url)location.href=r.url;
+else openModal("Certificate","Your certificate record will appear here when the backend confirms course completion.");
+});
+}
+
+render();
+loadAll();
+</script>
+</body>
+</html>
