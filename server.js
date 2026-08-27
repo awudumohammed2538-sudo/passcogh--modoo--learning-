@@ -1,0 +1,16 @@
+const express=require("express");
+const path=require("path");
+const fs=require("fs");
+const app=express();
+app.use(express.json({limit:"1mb"}));
+app.use(express.urlencoded({extended:true}));
+const ROOT=__dirname;
+const read=(f)=>JSON.parse(fs.readFileSync(path.join(ROOT,"data",f),"utf8"));
+app.get("/api/health",(req,res)=>res.json({ok:true,service:"PASSCOGH-MODOO",version:"5.0.0"}));
+app.get("/api/curriculum",(req,res)=>res.json(read("curriculum.json")));
+app.get("/api/institutions",(req,res)=>res.json(read("institutions.json")));
+app.get("/api/config",(req,res)=>res.json({freeReading:true,downloadPaymentRequired:true,adIntervalMinutes:15,ownerAccessEnabled:true}));
+app.use(express.static(path.join(ROOT,"public")));
+app.get("*",(req,res)=>res.sendFile(path.join(ROOT,"public","index.html")));
+const port=process.env.PORT||3000;
+app.listen(port,()=>console.log(`PASSCOGH-MODOO running on ${port}`));

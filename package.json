@@ -1,0 +1,18 @@
+{
+  "name": "passcogh-modoo-complete",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node scripts/sync-nacca.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
